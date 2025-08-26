@@ -5,6 +5,7 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
+    
     EV_Charging_StationDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
     EV_Charging_StationGithub : "https://github.com/Kishorevijay07/ChargingStation",
     EV_Charging_StationWebsite : "https://charging-station-frontend-sage.vercel.app/",
