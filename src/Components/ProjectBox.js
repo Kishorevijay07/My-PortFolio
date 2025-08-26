@@ -6,6 +6,11 @@ import {CgFileDocument} from "react-icons/cg";
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
     
+      
+    Offline_Python_ProgDesc : "An offline Python programming coaching system designed to help beginners master Python fundamentals, problem-solving, and debugging techniques. Integrated LLMs like ChatGPT and Gemini for assisted code explanations, personalized learning paths, and doubt-solving.",
+    Offline_Python_ProgGithub : "https://github.com/Kishorevijay07/OfflinePythonCoach", 
+    Offline_Python_ProgWebsite : "https://offline-python-coach-demo.vercel.app/",
+
     EV_Charging_StationDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
     EV_Charging_StationGithub : "https://github.com/Kishorevijay07/ChargingStation",
     EV_Charging_StationWebsite : "https://charging-station-frontend-sage.vercel.app/",

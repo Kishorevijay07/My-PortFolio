@@ -8,12 +8,14 @@ import Pdf_to_Xml from '../images/pdftoxml.png';
 import Referral_Hub from '../images/refferal.webp';
 import Software_License_Selling_Platform from '../images/sell_software.jpg';
 import Social_Media_Site from '../images/Social_Media_Site.webp';
+import Offline_Python_Prog from '../images/python.jpeg'
 
 const Projects = () => {
   return (
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
+        <ProjectBox projectPhoto={Offline_Python_Prog}   projectName="Offline_Python_Programming_Coach" />
         <ProjectBox projectPhoto={FinanceManagement} projectName="FinanceManagement" />
         <ProjectBox projectPhoto={Attendance_Management} projectName="Attendance_Management" />
         <ProjectBox projectPhoto={xclone} projectName="X_Clone" />
